@@ -1,0 +1,74 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="EminYelaldi_210757029.Admin" %>
+
+<!--THY ADMİN BÖLÜMÜNÜN NAVBAR YANİ HEADER HTML CSS BÖLÜMÜ-->
+<style>
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    nav {
+        /* Menü bölümü */
+        background-color: #3B3B3B;
+        width: 100%;
+        height: auto;
+    }
+
+
+        nav a {
+            float: left;
+            position: relative;
+            margin: 40px 30px;
+            text-align: center;
+            text-decoration: none;
+            color: #0F3D3E;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 20px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+            background-color: #252525;
+        }
+
+    .navbar-brand img {
+        width: 250px;
+        height: auto;
+        position: relative;
+    }
+</style>
+
+<!DOCTYPE html>
+<!-- KULLANILAN BOOSTRAP DOSYASI ! -->
+<link href="Dosyalar1/bootstrap.min.css" rel="stylesheet" />
+<html>
+<head runat="server">
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+    <title></title>
+
+
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand">
+                        <img src="img/THY-LOGO.png"></a>
+                </div>
+                <ul class="nav navbar-nav navbar-right ">
+                    <li><a href="yakinda.html" style="font-family: Arial; font-size: medium; font-style: normal; color: #FFFFFF; font-weight: normal"></a>
+                        <li><a href="AdminUcus.aspx" style="font-family: Arial; font-size: medium; font-style: normal; color: #FFFFFF; font-weight: normal"><strong>Uçuş Ayarları</strong></a></li>
+                    <li><a href="AdminBilet.aspx" style="font-family: Arial; font-size: medium; font-style: normal; color: #FFFFFF; font-weight: normal"><strong>Bilet Ayarları</strong></a></li>
+                    <li><a href="AdminMusteri.aspx" style="font-family: Arial; font-size: medium; font-style: normal; color: #FFFFFF; font-weight: normal"><strong>Müşteri Ayarları</strong></a></li>
+                    <li><a href="AdminLogin.aspx" style="font-family: Arial; font-size: medium; font-style: normal; color: #FFFFFF; font-weight: normal"><strong>Oturumu Kapat</strong></a></li>
+                </ul>
+            </div>
+        </nav>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server"></asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>
+

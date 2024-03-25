@@ -1,0 +1,50 @@
+
+EminYelaldi_210757029 projesi (THY Online Bilet Satış)
+------------------------------------------------------
+VİDEO BAĞLANTI LİNKİ: 
+https://drive.google.com/file/d/1Woz4H4CLkV-omB42UTuLt3cdkwso59J3/view?usp=sharing
+------------------------------------------------------
+UYGULAMAYI BAŞLATMA SEÇENEKLERİ
+1-LoginPanel den müşteri olarak başlatabilirsiniz.
+2-AdminLogin den admin olarak başlatabilirsiniz.
+------------------------------------------------------
+SQL CONNECTİON BAĞLANTI KOD SAYFALARI
+0-WEB CONFİG 
+connection strings lerin arasındaki bağlantıy değiştirmeniz lazım
+
+1-LoginPanel.cs FORMU
+sql connection baglanti 17. satırda
+
+2-Anasayfa.cs FORMU
+sql connection baglanti 18. satırda
+
+3-BiletBilgileri.cs FORMU
+sql connection baglanti 17.satırda
+
+4-BiletIptal.cs FORMU
+sql connection baglanti 14.satırda
+
+5-BiletTablosu.cs FORMU
+sql connection baglanti 15.satırda
+
+6-KayıtPanel.cs FORMU
+sql connection baglanti 19.satırda
+
+7-KoltukSecimi.cs FORMU
+sql connection baglanti 61.satırda ve 350.satırda
+
+8-SifremiUnuttum.cs FORMU
+sql connection baglanti 15.satırda
+
+9-AdminUcus.cs FORMU
+sql connection baglanti 17.satırda
+
+10-AdminMusteri.cs FORMU
+sql connection baglanti 16.satırda
+
+11-AdminLogin.cs FORMU
+sql connection baglanti 16.satırda
+
+12-AdminBilet.cs FORMU
+sql connection baglanti 16.satırda
+------------------------------------------------------
